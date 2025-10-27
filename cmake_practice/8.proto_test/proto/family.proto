@@ -1,0 +1,12 @@
+syntax="proto3";
+
+package myhome;
+
+message Family{
+    int32 id = 1;
+    string name = 2;
+    int32 age = 3;
+    string sex = 4;
+    string status = 5;
+    string phone = 6;
+}
